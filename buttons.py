@@ -10,8 +10,9 @@ def login_fnc():
 we now create a button widget which we place it in the root window
 it has some addition options which we can add to style the button better
 """
-Submit=Button(root, text="Submit", padx=30, 
-                pady= 20, background= "black", font = 15,foreground="#f1c40f")
+Submit=Button(root, image =r"C:\Users\ELVIS LEMEIN\Pictures\2018-08-06\str1.png", padx=30, 
+                pady= 20,  font = 15,foreground="#f1c40f"
+                )
 """ 
 In creating buttons colors can be in hexadecimal format. ie #ffffff
 """
